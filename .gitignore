@@ -1,0 +1,11 @@
+*.log
+*.ps1
+
+fortran/build/
+fortran/config/
+fortran/output/
+
+python/pyrightconfig.json
+python/**/__pycache__/
+python/input/
+python/output/
