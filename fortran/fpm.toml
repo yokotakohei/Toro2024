@@ -1,0 +1,24 @@
+name = "Toro2024"
+version = "0.1.0"
+license = "MIT"
+author = "yokotakohei"
+copyright = "Copyright 2025, yokotakohei"
+
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+module-naming = false
+
+[install]
+library = false
+
+[fortran]
+implicit-typing = false
+implicit-external = false
+source-form = "free"
+
+[dependencies]
+stdlib = "*"
+argument_getter = {git = "https://github.com/gobytis/Fortran-argument-getter"}
+json-fortran = {git = "https://github.com/jacobwilliams/json-fortran.git"}
